@@ -1,0 +1,111 @@
+23년 12월 3일
+[HTML/CSS All-in-one : 기초부터 Bootstrap, SASS, 고급 animation 까지]
+HTML 기초와 개발환경 셋팅
+HTML 기본 태그로 글 작성해보기
+까지 봄
+
+23년 12월 5일
+기본적인 웹페이지 스타일링
+CSS 파일 만들고 첨부하는 법
+까지 봄
+
+23년 12월 7일
+웹레이아웃의 기초 : div를 이용한 네모네모 박스 디자인
+레이아웃 만들기 1 : 호환성 좋은 float
+까지 봄
+
+23년 12월 9일
+레이아웃 만들기 2 : 귀찮은 inline-block
+레이아웃 만들기 숙제 : Blog 글목록 만들기
+까지 봄
+
+23년 12월 10일
+셀렉터를 이용해 CSS 코드 양 줄이기
+배경 이쁘게 넣는 스킬들 & margin collapse
+까지 봄
+
+23년 12월 12일
+position과 좌표 레이아웃 만들기
+position 숙제 & 반응형 width & box-sizing
+까지 봄
+
+23년 12월 14일
+form & input
+form & input 숙제 : Contact Us 섹션 만들기
+까지 봄
+
+23년 12월 16일
+쓸데 많은 Table 레이아웃과 vertical-align속성
+Table 레이아웃 숙제 : Cart 페이지 만들기
+pseudo-class로 인터랙티브 버튼 만들기
+코드양이 줄어드는 class 작명법 (OOCSS, BEM)
+까지 봄
+
+23년 12월 17일
+HTML CSS 웹폰트 넣는 법과 안티앨리어싱
+레이아웃 만들기 3 : 편리한 Flexbox
+까지 봄
+
+23년 12월 18일
+HTML CSS 코드짤 때 유용한 Emmet 그리고 부가기능들
+head 태그에 들어갈 내용 정리
+(위 둘 다 영상은 아니고 설명글)
+반응형 레이아웃 만들기
+반응형 레이아웃 숙제 : 가로정렬 레이아웃
+까지 봄
+
+23년 12월 19일
+크롬 개발자 도구와 IE호환성 잡기
+Font Awesome 아이콘 넣기
+까지 봄
+
+23년 12월 24일
+Transition 속성으로 CSS 애니메이션 구현하기
+Transition 숙제 : 상품진열 레이아웃과 애니메이션
+까지 봄
+
+23년 12월 25일
+Portfolio 실습 1 : Landing Page
+Portfolio 실습 1 : Landing Page (해설편)
+까지 봄
+
+23년 12월 26일
+Bootstrap 설치와 사용법
+Bootstrap Grid 레이아웃
+Bootstrap Grid 레이아웃 숙제 해설
+CSS 덮어쓰기 잘하는 법 & 어떤 코드가 좋은 코드인가요
+Portfolio 실습 2 : SNS Profile
+Portfolio 실습 2 : SNS Profile (해설편)
+까지 봄
+
+23년 12월 27일
+약간 쓸데없는 Pseudo-element
+딥다크한 어둠의 공간 Shadow DOM
+만든 사이트 발행하기
+까지 봄
+
+23년 12월 28일
+쉽게 배우는 Sass 기초 1편 : 셋팅
+쉽게 배우는 Sass 2편 : 핵심문법
+쉽게 배우는 Sass 3편 : Mixin, use 등
+쉽게 배우는 Sass : 숙제 해설
+HTML video, audio 다루기
+까지 봄
+
+23년 12월 29일
+transform & animation 으로 매끄러운 애니메이션 만들기
+transform & animation 숙제 해설 (움직이는 메뉴)
+까지 봄
+
+23년 12월 31일
+레이아웃 만들기 4 : CSS Grid 레이아웃
+레이아웃 만들기 4 숙제 (인스타그램 격자 레이아웃)
+position : sticky 활용하기
+Portfolio 실습 3 : Admin Page
+Portfolio 실습 3 : Admin Page (해설편)
+CSS 3D animation : 종이처럼 뒤집히는 프로필사진 만들기
+
+24년 1월 2일
+[JavaScript 입문과 웹 UI개발]
+강의 소개와 자바스크립트의 근본
+동적 UI 만드는 스텝 (Alert 박스 만들기)

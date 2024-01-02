@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css레벨1/240102_css_01.css">
+</head>
+<body>
+  <h1 id="hello">안녕하세요</h1>
+  <h1 id="hi">JS 초보에요</h1>
+  <script>
+    document.getElementById('hello').innerHTML = '안녕';
+    // html문서의 html요소 중 ID가 hello인걸 가져와서 그것의 내부
+    // html을 안녕으로 바꾸라는 뜻.
+    document.getElementById('hi').innerHTML = 'JS 고수에요';
+    document.getElementById('hello').style.fontSize = '16px';
+    // 폰트사이즈 바꾸기
+  </script>
+  <div class="alert-box" id="alert">
+    알림창
+  </div>
+  <button onclick="document.getElementById('alert').style.display='block';">열기</button>
+  <!-- 버튼 누르면 알림창 보여주도록 함 (none을 block으로 js이용해 바꿔줌) -->
+  <button onclick="document.getElementById('alert').style.display='none';">닫기</button>
+</body>
+</html>
