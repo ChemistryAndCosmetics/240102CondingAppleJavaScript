@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css레벨1/240106_css_02.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- 제이쿼리 소스 하단에서 해당 라이브러리 사용가능 -->
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <span class="navbar-brand">Navbar</span>
+        <button class="navbar-toggler" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <ul class="list-group">
+      <li class="list-group-item">An item</li>
+      <li class="list-group-item">A second item</li>
+      <li class="list-group-item">A third item</li>
+      <li class="list-group-item">A fourth item</li>
+      <li class="list-group-item">And a fifth one</li>
+    </ul>
+    <p class="hello">안녕</p>
+    <p class="hello">안녕</p>
+    <p class="hello">안녕</p>
+    <button id="test-btn">버튼</button>
+    <button id="login">로그인</button>
+    <div class="black-bg">
+      <div class="white-bg">
+        <h4>로그인하십시오</h4>
+        <button class="btn btn-danger" id="close">닫기</button>
+      </div>
+    </div>
+
+    <script>
+      document.querySelector('.list-group')
+      // css문법 그대로, querySelector는 맨 위만 찾아주는 것이 특징
+      // 다른 것까지 찾으려면 querySelectorAll 써야함
+      document.querySelectorAll('.navbar-toggler')[0].addEventListener('click', function(){
+        document.querySelectorAll('.list-group')[0].classList.toggle('show');
+        // 특별히 querySelectorAll로 적어줌
+      });
+      // toggle쓰면 add쓸 때와 달리 뗴고 붙이고 반복 가능
+    </script>
+    <script>
+      // document.querySelector('.hello').innerHTML = '바보';
+      $('.hello').html('바보');
+            // 제이쿼리는 document.querySelector를 $로 표헌
+      $('.hello').css('color', 'red');
+      // 색깔 바꾸기
+      $('.hello').addClass('show');
+      // 제거는 .removeClass() 토글은 .toggleClass()
+      // 생자바스크립트라면 아래와 같이 써서 3개를 천재로 만들어줌
+      // document.querySelectorAll('.hello')[0].innerHTML = '천재';
+      // document.querySelectorAll('.hello')[1].innerHTML = '천재';
+      // document.querySelectorAll('.hello')[2].innerHTML = '천재';
+      $('.hello').html('천재');
+      // querySelectorAll와 비슷해서 한 번에 다 찾아줌
+      // document.querySelector('#test-btn').addEventListener()
+      // id를 클래스처럼 쓸 때는 #붙이기. on이 addEventListener() 역할
+      $('#test-btn').on('click', function(){
+        $('.hello').hide()
+        // 숨겨주기
+      });
+
+      $('#login').on('click', function(){
+        $('.black-bg').addClass('show-modal');
+      })
+      // 로그인버튼 활성화
+      $('#close').on('click', function(){
+        $('.black-bg').addClass('hide-modal');
+        // 닫기버튼 활성화
+      })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
