@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>과제</title>
+    <!-- 제이쿼리 소스 하단에서 해당 라이브러리 사용가능 -->
+  </head>
+  <body>
+    <script>
+      function 삼육구(엑스) {
+        if (엑스 % 9 == 0) {
+          console.log("박수박수");
+        } else if (엑스 % 3 == 0) {
+          console.log("박수");
+        } else {
+          console.log("통과");
+        }
+      }
+      삼육구(18);
+      function 공인중개사(와이, 제트) {
+        if (와이 < 0 || 와이 > 100 || 제트 < 0 || 제트 > 100) {
+          alert('장난하지마')
+        } else if (와이 < 40 || 제트 < 40) {
+          console.log('불합')
+        } else if (와이 + 제트 >= 120) {
+          console.log('합')
+        } else {
+          console.log('불합')
+        }
+      }
+      공인중개사(10, 70);
+      function 끝자리삼육구(알파) {
+        if ((알파 % 10) % 3 == 0) {
+          console.log('짝짝');
+        } else {
+          console.log('지나가')
+        }
+      }
+      끝자리삼육구(26)
+    </script>
+  </body>
+</html>
