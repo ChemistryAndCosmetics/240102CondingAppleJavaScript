@@ -1,0 +1,14 @@
+.slide-container {
+  width: 300vw;
+  transition: all 1s;
+  /* 화면을 오른쪽으로 밀어서 두번째 이미지 보이게 */
+}
+
+.slide-box {
+  width: 100vw;
+  float: left;
+}
+
+.slide-box img {
+  width: 100%;
+}
